@@ -24,77 +24,60 @@
 
 ## Assignment Tasks - Week 2 - Group No. 5
 This is a group activity for at least 3 students:
-- Develop and run scripts for “Ballot.sol” within your group to give voting rights, casting votes, delegating votes, and querying results.
-- Write a report with each function execution and the transaction hash, if successful, or the revert reason, if failed.
-- Submit your weekend project by filling out the form provided in Discord.
-- Submit your code in a GitHub repository in the form.
-
+- Develop and run scripts for “Ballot.sol” within your group to give voting rights, casting votes, delegating votes and querying results
+- Write a report with each function execution and the transaction hash, if successful, or the revert reason, if failed
+- Submit your weekend project by filling out the form provided in Discord
+- Submit your code in a GitHub repository in the form
 ## Date of Submission
 18-Aug-2024
-
 ## GitHub Link
 [https://github.com/evmbootcamp/week2project](https://github.com/evmbootcamp/week2project)
-
 ## Tasks
-
-### Successfully Deploying the Contract Ballot.sol with 2 Proposals
+Successfully Deploying the Contract Ballot.sol with 2 Proposals
 ![Project Screenshot](./utilities/1.png)
-
 - **Contract URL on Etherscan**:  
   [https://sepolia.etherscan.io/address/0x94245ac9f6e39373d3b3698753d47903bb1e0240#code](https://sepolia.etherscan.io/address/0x94245ac9f6e39373d3b3698753d47903bb1e0240#code)
-
 ### Casting Votes
-
-#### Script
-`CastVote.ts`
-
-#### Script failing when array index given more than the length of proposal array
-[Etherscan Link](https://sepolia.etherscan.io/address/0x94245ac9f6e39373d3b3698753d47903bb1e0240#code)
-![Project Screenshot](./utilities/2.png)
-
-#### Script successfully executing voting for a proposal
-![Project Screenshot](./utilities/3.png)
-
+- **Script**:  
+  `CastVote.ts`
+- **Issue**:  
+  Script fails when the array index is greater than the length of the proposal array.  
+  [Etherscan Link](https://sepolia.etherscan.io/address/0x94245ac9f6e39373d3b3698753d47903bb1e0240#code)
+  ![Project Screenshot](./utilities/2.png)
+- **Success**:  
+  Script successfully executes voting for a proposal.
+  ![Project Screenshot](./utilities/3.png)
 ### Giving Voting Rights
-
-#### Script
-`GiveRightToVote.ts`
-
-#### Script successfully giving rights to vote to a new voter
-![Project Screenshot](./utilities/4.png)
-
-#### Trying to give the same voter voting right again throws error
-![Project Screenshot](./utilities/5.png)
-
+- **Script**:  
+  `GiveRightToVote.ts`
+- **Success**:  
+  Script successfully gives voting rights to a new voter.
+  ![Project Screenshot](./utilities/4.png)
+- **Error Handling**:  
+  Trying to give the same voter voting rights again throws an error.
+  ![Project Screenshot](./utilities/5.png)
 ### Delegate
-
-#### Script
-`DelegateTo.ts`
-
-#### Script failing when a user who has already voted tries to delegate
-![Project Screenshot](./utilities/6.png)
-
-#### Script successfully executing and delegating to the provided voter
-Transaction Hash: `0xb6b8c3321eeb0e909c0a1390b346b257c10030e3ccae64bc76aaf8d937193fbf`
-![Project Screenshot](./utilities/7.png)
-
+- **Script**:  
+  `DelegateTo.ts`
+- **Issue**:  
+  Script fails when a user who has already voted tries to delegate.
+  ![Project Screenshot](./utilities/6.png)
+- **Success**:  
+  Script successfully delegates the vote to the provided voter.  
+  Transaction Hash: `0xb6b8c3321eeb0e909c0a1390b346b257c10030e3ccae64bc76aaf8d937193fbf`
+  ![Project Screenshot](./utilities/7.png)
 ### Winner Proposal
-
-#### Script
-`Winner.ts`
-
-#### Script failing with wrong contract address
-![Project Screenshot](./utilities/8.png)
-
-#### Script successfully executing and providing winning proposal name
-![Project Screenshot](./utilities/9.png)
-
+- **Script**:  
+  `Winner.ts`
+- **Issue**:  
+  Script fails with the wrong contract address.
+  ![Project Screenshot](./utilities/8.png)
+- **Success**:  
+  Script successfully executes and provides the winning proposal name.
+  ![Project Screenshot](./utilities/9.png)
 ---
-
 ### Additional Instructions
-
 - **Group Activity**: This project was conducted by Group No. 5, consisting of at least three students.
-
 - **Objectives**:
   1. Develop and run scripts for `Ballot.sol` to give voting rights, cast votes, delegate votes, and query results.
   2. Write a report detailing each function execution and the transaction hash if successful, or the revert reason if failed.
