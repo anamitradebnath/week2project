@@ -28,15 +28,15 @@ This is a group activity for at least 3 students:
 - Submit your weekend project by filling out the form provided in Discord
 - Submit your code in a GitHub repository in the form
 
-### Date of Submission
+## Date of Submission
 18-Aug-2024
 
-### GitHub Link
+## GitHub Link
 [https://github.com/evmbootcamp/week2project](https://github.com/evmbootcamp/week2project)
 
 ## Tasks
 
-### Successfully Deploying the Contract Ballot.sol with 2 Proposals
+Successfully Deploying the Contract Ballot.sol with 2 Proposals
 
 - **Contract URL on Etherscan**:  
   [https://sepolia.etherscan.io/address/0x94245ac9f6e39373d3b3698753d47903bb1e0240#code](https://sepolia.etherscan.io/address/0x94245ac9f6e39373d3b3698753d47903bb1e0240#code)
@@ -64,7 +64,7 @@ This is a group activity for at least 3 students:
 - **Error Handling**:  
   Trying to give the same voter voting rights again throws an error.
 
-### Delegate [Incomplete]
+### Delegate
 
 - **Script**:  
   `DelegateTo.ts`
