@@ -1,6 +1,32 @@
 # Week 2 - Project
 
+Assignment Tasks - Week2 - Group No. 5	
+Date of Submission	
+Github Link	
+Tasks	
+Successfully deploying the Contract Ballot.sol with 2 Proposals	
+Casting Votes	
+Script:	
+Script failing when array index given more than the length of proposal array	
+Script successfully executing voting for a proposal	
+Giving Voting Rights	
+Script:	
+Script successfully giving rights to vote to a new voter	
+Trying to give the same voter voting right again throws error	
+Delegate
+Script	
+Script failing when a user who has already voted trying to delegate	
+Winner Proposal	
+Script	
+Script failing with wrong contract address	
+Script successfully executing and providing winning proposal name	
+
 ## Assignment Tasks - Week 2 - Group No. 5
+This is a group activity for at least 3 students:
+- Develop and run scripts for “Ballot.sol” within your group to give voting rights, casting votes, delegating votes and querying results
+- Write a report with each function execution and the transaction hash, if successful, or the revert reason, if failed
+- Submit your weekend project by filling out the form provided in Discord
+- Submit your code in a GitHub repository in the form
 
 ### Date of Submission
 18-Aug-2024
