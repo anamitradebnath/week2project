@@ -1,32 +1,33 @@
 # Week 2 - Project
 
-- Assignment Tasks - Week2 - Group No. 5	
-- Date of Submission	
-- Github Link	
-- Tasks	
-  - Successfully deploying the Contract Ballot.sol with 2 Proposals	
-  - Casting Votes	
-    - Script:	
-    - Script failing when array index given more than the length of proposal array	
-    - Script successfully executing voting for a proposal	
-  - Giving Voting Rights	
-    - Script:	
-    - Script successfully giving rights to vote to a new voter	
-    - Trying to give the same voter voting right again throws error	
-  - Delegate
-    - Script	
-    - Script failing when a user who has already voted trying to delegate	
-  - Winner Proposal	
-    - Script	
-    - Script failing with wrong contract address	
-    - Script successfully executing and providing winning proposal name	
+## INDEX
+- [Assignment Tasks - Week2 - Group No. 5](#assignment-tasks---week-2---group-no-5)
+- [Date of Submission](#date-of-submission)
+- [GitHub Link](#github-link)
+- [Tasks](#tasks)
+  - [Successfully Deploying the Contract Ballot.sol with 2 Proposals](#successfully-deploying-the-contract-ballotsol-with-2-proposals)
+  - [Casting Votes](#casting-votes)
+    - [Script](#script)
+    - [Script failing when array index given more than the length of proposal array](#script-failing-when-array-index-given-more-than-the-length-of-proposal-array)
+    - [Script successfully executing voting for a proposal](#script-successfully-executing-voting-for-a-proposal)
+  - [Giving Voting Rights](#giving-voting-rights)
+    - [Script](#script-1)
+    - [Script successfully giving rights to vote to a new voter](#script-successfully-giving-rights-to-vote-to-a-new-voter)
+    - [Trying to give the same voter voting right again throws error](#trying-to-give-the-same-voter-voting-right-again-throws-error)
+  - [Delegate](#delegate)
+    - [Script](#script-2)
+    - [Script failing when a user who has already voted tries to delegate](#script-failing-when-a-user-who-has-already-voted-tries-to-delegate)
+  - [Winner Proposal](#winner-proposal)
+    - [Script](#script-3)
+    - [Script failing with wrong contract address](#script-failing-with-wrong-contract-address)
+    - [Script successfully executing and providing winning proposal name](#script-successfully-executing-and-providing-winning-proposal-name)
 
 ## Assignment Tasks - Week 2 - Group No. 5
 This is a group activity for at least 3 students:
-- Develop and run scripts for “Ballot.sol” within your group to give voting rights, casting votes, delegating votes and querying results
-- Write a report with each function execution and the transaction hash, if successful, or the revert reason, if failed
-- Submit your weekend project by filling out the form provided in Discord
-- Submit your code in a GitHub repository in the form
+- Develop and run scripts for “Ballot.sol” within your group to give voting rights, casting votes, delegating votes, and querying results.
+- Write a report with each function execution and the transaction hash, if successful, or the revert reason, if failed.
+- Submit your weekend project by filling out the form provided in Discord.
+- Submit your code in a GitHub repository in the form.
 
 ## Date of Submission
 18-Aug-2024
@@ -36,7 +37,7 @@ This is a group activity for at least 3 students:
 
 ## Tasks
 
-Successfully Deploying the Contract Ballot.sol with 2 Proposals
+### Successfully Deploying the Contract Ballot.sol with 2 Proposals
 ![Project Screenshot](./utilities/1.png)
 
 - **Contract URL on Etherscan**:  
@@ -44,57 +45,49 @@ Successfully Deploying the Contract Ballot.sol with 2 Proposals
 
 ### Casting Votes
 
-- **Script**:  
-  `CastVote.ts`
+#### Script
+`CastVote.ts`
 
-- **Issue**:  
-  Script fails when the array index is greater than the length of the proposal array.  
-  [Etherscan Link](https://sepolia.etherscan.io/address/0x94245ac9f6e39373d3b3698753d47903bb1e0240#code)
-  ![Project Screenshot](./utilities/2.png)
+#### Script failing when array index given more than the length of proposal array
+[Etherscan Link](https://sepolia.etherscan.io/address/0x94245ac9f6e39373d3b3698753d47903bb1e0240#code)
+![Project Screenshot](./utilities/2.png)
 
-- **Success**:  
-  Script successfully executes voting for a proposal.
-  ![Project Screenshot](./utilities/3.png)
+#### Script successfully executing voting for a proposal
+![Project Screenshot](./utilities/3.png)
 
 ### Giving Voting Rights
 
-- **Script**:  
-  `GiveRightToVote.ts`
+#### Script
+`GiveRightToVote.ts`
 
-- **Success**:  
-  Script successfully gives voting rights to a new voter.
-  ![Project Screenshot](./utilities/4.png)
+#### Script successfully giving rights to vote to a new voter
+![Project Screenshot](./utilities/4.png)
 
-- **Error Handling**:  
-  Trying to give the same voter voting rights again throws an error.
-  ![Project Screenshot](./utilities/5.png)
+#### Trying to give the same voter voting right again throws error
+![Project Screenshot](./utilities/5.png)
 
 ### Delegate
 
-- **Script**:  
-  `DelegateTo.ts`
+#### Script
+`DelegateTo.ts`
 
-- **Issue**:  
-  Script fails when a user who has already voted tries to delegate.
-  ![Project Screenshot](./utilities/6.png)
+#### Script failing when a user who has already voted tries to delegate
+![Project Screenshot](./utilities/6.png)
 
-- **Success**:  
-  Script successfully delegates the vote to the provided voter.  
-  Transaction Hash: `0xb6b8c3321eeb0e909c0a1390b346b257c10030e3ccae64bc76aaf8d937193fbf`
-  ![Project Screenshot](./utilities/7.png)
+#### Script successfully executing and delegating to the provided voter
+Transaction Hash: `0xb6b8c3321eeb0e909c0a1390b346b257c10030e3ccae64bc76aaf8d937193fbf`
+![Project Screenshot](./utilities/7.png)
 
 ### Winner Proposal
 
-- **Script**:  
-  `Winner.ts`
+#### Script
+`Winner.ts`
 
-- **Issue**:  
-  Script fails with the wrong contract address.
-  ![Project Screenshot](./utilities/8.png)
+#### Script failing with wrong contract address
+![Project Screenshot](./utilities/8.png)
 
-- **Success**:  
-  Script successfully executes and provides the winning proposal name.
-  ![Project Screenshot](./utilities/9.png)
+#### Script successfully executing and providing winning proposal name
+![Project Screenshot](./utilities/9.png)
 
 ---
 
