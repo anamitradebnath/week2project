@@ -37,6 +37,7 @@ This is a group activity for at least 3 students:
 ## Tasks
 
 Successfully Deploying the Contract Ballot.sol with 2 Proposals
+![Project Screenshot](./utilities/1.png)
 
 - **Contract URL on Etherscan**:  
   [https://sepolia.etherscan.io/address/0x94245ac9f6e39373d3b3698753d47903bb1e0240#code](https://sepolia.etherscan.io/address/0x94245ac9f6e39373d3b3698753d47903bb1e0240#code)
@@ -49,9 +50,11 @@ Successfully Deploying the Contract Ballot.sol with 2 Proposals
 - **Issue**:  
   Script fails when the array index is greater than the length of the proposal array.  
   [Etherscan Link](https://sepolia.etherscan.io/address/0x94245ac9f6e39373d3b3698753d47903bb1e0240#code)
+  ![Project Screenshot](./utilities/2.png)
 
 - **Success**:  
   Script successfully executes voting for a proposal.
+  ![Project Screenshot](./utilities/3.png)
 
 ### Giving Voting Rights
 
@@ -60,9 +63,11 @@ Successfully Deploying the Contract Ballot.sol with 2 Proposals
 
 - **Success**:  
   Script successfully gives voting rights to a new voter.
+  ![Project Screenshot](./utilities/4.png)
 
 - **Error Handling**:  
   Trying to give the same voter voting rights again throws an error.
+  ![Project Screenshot](./utilities/5.png)
 
 ### Delegate
 
@@ -71,10 +76,12 @@ Successfully Deploying the Contract Ballot.sol with 2 Proposals
 
 - **Issue**:  
   Script fails when a user who has already voted tries to delegate.
+  ![Project Screenshot](./utilities/6.png)
 
 - **Success**:  
   Script successfully delegates the vote to the provided voter.  
-  **Transaction Hash**: `0xb6b8c3321eeb0e909c0a1390b346b257c10030e3ccae64bc76aaf8d937193fbf`
+  Transaction Hash: `0xb6b8c3321eeb0e909c0a1390b346b257c10030e3ccae64bc76aaf8d937193fbf`
+  ![Project Screenshot](./utilities/7.png)
 
 ### Winner Proposal
 
@@ -83,9 +90,11 @@ Successfully Deploying the Contract Ballot.sol with 2 Proposals
 
 - **Issue**:  
   Script fails with the wrong contract address.
+  ![Project Screenshot](./utilities/8.png)
 
 - **Success**:  
   Script successfully executes and provides the winning proposal name.
+  ![Project Screenshot](./utilities/9.png)
 
 ---
 
