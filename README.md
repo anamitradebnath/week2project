@@ -1,25 +1,25 @@
 # Week 2 - Project
 
-Assignment Tasks - Week2 - Group No. 5	
-Date of Submission	
-Github Link	
-Tasks	
-Successfully deploying the Contract Ballot.sol with 2 Proposals	
-Casting Votes	
-Script:	
-Script failing when array index given more than the length of proposal array	
-Script successfully executing voting for a proposal	
-Giving Voting Rights	
-Script:	
-Script successfully giving rights to vote to a new voter	
-Trying to give the same voter voting right again throws error	
-Delegate
-Script	
-Script failing when a user who has already voted trying to delegate	
-Winner Proposal	
-Script	
-Script failing with wrong contract address	
-Script successfully executing and providing winning proposal name	
+- Assignment Tasks - Week2 - Group No. 5	
+- Date of Submission	
+- Github Link	
+- Tasks	
+  - Successfully deploying the Contract Ballot.sol with 2 Proposals	
+  - Casting Votes	
+    - Script:	
+    - Script failing when array index given more than the length of proposal array	
+    - Script successfully executing voting for a proposal	
+  - Giving Voting Rights	
+    - Script:	
+    - Script successfully giving rights to vote to a new voter	
+    - Trying to give the same voter voting right again throws error	
+  - Delegate
+    - Script	
+    - Script failing when a user who has already voted trying to delegate	
+  - Winner Proposal	
+    - Script	
+    - Script failing with wrong contract address	
+    - Script successfully executing and providing winning proposal name	
 
 ## Assignment Tasks - Week 2 - Group No. 5
 This is a group activity for at least 3 students:
