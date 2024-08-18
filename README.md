@@ -7,20 +7,20 @@
 - [Tasks](#tasks)
   - [Successfully Deploying the Contract Ballot.sol with 2 Proposals](#successfully-deploying-the-contract-ballotsol-with-2-proposals)
   - [Casting Votes](#casting-votes)
-    - Script
-    - Script failing when array index given more than the length of proposal array
-    - Script successfully executing voting for a proposal
+    - [Script](#script)
+    - [Script failing when array index given more than the length of proposal array](#script-failing-when-array-index-given-more-than-the-length-of-proposal-array)
+    - [Script successfully executing voting for a proposal](#script-successfully-executing-voting-for-a-proposal)
   - [Giving Voting Rights](#giving-voting-rights)
-    - Script
-    - Script successfully giving rights to vote to a new voter
-    - Trying to give the same voter voting right again throws error
+    - [Script](#script-1)
+    - [Script successfully giving rights to vote to a new voter](#script-successfully-giving-rights-to-vote-to-a-new-voter)
+    - [Trying to give the same voter voting right again throws error](#trying-to-give-the-same-voter-voting-right-again-throws-error)
   - [Delegate](#delegate)
-    - Script
-    - Script failing when a user who has already voted tries to delegate
+    - [Script](#script-2)
+    - [Script failing when a user who has already voted tries to delegate](#script-failing-when-a-user-who-has-already-voted-tries-to-delegate)
   - [Winner Proposal](#winner-proposal)
-    - Script
-    - Script failing with wrong contract address
-    - Script successfully executing and providing winning proposal name
+    - [Script](#script-3)
+    - [Script failing with wrong contract address](#script-failing-with-wrong-contract-address)
+    - [Script successfully executing and providing winning proposal name](#script-successfully-executing-and-providing-winning-proposal-name)
 
 ## Assignment Tasks - Week 2 - Group No. 5
 This is a group activity for at least 3 students:
